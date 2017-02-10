@@ -1,0 +1,25 @@
+body {
+	background-color: #222;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 95vw;
+	height: 95vh;
+}
+
+section {
+	width: 200px;
+	height: 200px;
+	background-color: black;
+	animation: rotate 2s infinite linear;
+	backface-visibility: hidden;
+}
+
+@keyframes rotate {
+	0% {
+		transform: rotate(0deg)
+	}
+	100% {
+		transform: rotate(360deg)
+	}
+}
