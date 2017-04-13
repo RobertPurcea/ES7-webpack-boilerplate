@@ -1,6 +1,7 @@
 var path = require('path');
 
 module.exports = {
+	devtool: "cheap-eval-source-map",
 	entry: './src/index.js',
 	output: {
 		filename: 'bundle.js',
